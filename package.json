@@ -1,0 +1,27 @@
+{
+  "name": "inspector-on-demand",
+  "version": "1.0.0",
+  "description": "Launch v8 inspector/devtools on demand for long-running apps",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "mocha_opts": "-u tdd --compilers coffee:coffee-script/register --slow 1000 --timeout 5000",
+  "scripts": {
+    "postversion": "git add . && git commit -a -m '[Build]'",
+    "postpublish": "git push",
+    "test": "echo 'N/A'"
+  },
+  "author": "danielkalen",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielkalen/inspector-on-demand"
+  },
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "coffee-register": "^0.1.2",
+    "coffee-script": "^1.12.7",
+    "terminal-kit": "^1.13.11"
+  }
+}
