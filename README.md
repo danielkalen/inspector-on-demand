@@ -6,8 +6,8 @@
 Launch v8 inspector/chrome-dev-tools on-demand for long-running apps. Requires node >= v8.0.0, otherwise dev
 
 ## Demo
-[![Demo 1](.config/img/demo1.png?raw=true)](https://github.com/danielkalen/inspector-on-demand)
-[![Demo 2](.config/img/demo2.png?raw=true)](https://github.com/danielkalen/inspector-on-demand)
+[![Demo 1 - Normal Activation](.config/img/demo1.gif?raw=true)](https://github.com/danielkalen/inspector-on-demand)
+[![Demo 2 - Paused Execution](.config/img/demo2.gif?raw=true)](https://github.com/danielkalen/inspector-on-demand)
 
 
 ## Usage
