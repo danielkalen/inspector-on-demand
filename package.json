@@ -20,7 +20,7 @@
   "license": "ISC",
   "devDependencies": {},
   "dependencies": {
-    "coffee-register": "^0.1.2",
+    "coffee-register": "^2.0.0",
     "coffee-script": "^1.12.7",
     "terminal-kit": "^1.13.11"
   }
