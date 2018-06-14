@@ -1,6 +1,6 @@
 {
   "name": "inspector-on-demand",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Launch v8 inspector/devtools on demand for long-running apps",
   "main": "index.js",
   "engines": {
